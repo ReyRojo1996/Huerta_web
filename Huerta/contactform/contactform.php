@@ -18,7 +18,7 @@ $message .= "enviado el: ".date('d/m/Y',time());
 
 
 $para = 'huertafuneralhome@live.com.mx';
-$asunto = 'message de mi web';
+$asunto = 'mensaje de mi web';
 
 if(mail($para,$asunto,utf8_decode($message),$header))
 echo "<script type='text/javascript'>alert('Tu message ha sido enviado exitosamente');</script>";
